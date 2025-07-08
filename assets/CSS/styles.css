@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {  
+    background-color: #f5f5f5;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    height: 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu,
+.search-icon,
+.video-icon,
+.bell-icon,
+.profile {
+    width: 1.5rem;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.menu img,
+.logo img,
+.video-icon img,
+.bell-icon img,
+.image-video,
+.thumb img {
+    width: 100%;
+}
+
+.image-video img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.search-icon img {
+    width: 80%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    height: 2.5rem;
+    border: 1px solid #d8d4d4;
+}
+
+.search {
+    width: 85%;
+    padding: 0 1rem;
+}
+
+.search-icon {
+    border: 1px solid #d8d4d4;
+    width: 16%;
+    height: 100%;
+    background-color: #f0eded;
+}
+
+.profile  img {
+    width: 120%;
+    border-radius: 50%;
+}
+
+/* Estilização do conteúdo principal */
+
+main {
+    display: flex;
+    width: 100%;
+    padding: 1.5rem 1rem 1rem 4rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 65%;   
+}
+
+.main-content h2 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.channel-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.channel img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.channel-info h2 {
+    font-size: 1.2rem; 
+}
+
+.channel-info p {
+    font-size: 1rem;
+    color: #515151;
+}
+
+.subscribe {
+    padding: 0.5rem 1.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.subscribe:hover {
+    opacity: 0.8;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.actions div {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.actions img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.actions p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container-description {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-description h2,
+.infos h3 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container-description p,
+.infos p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #515151;
+}
+
+/* Estilização do sidebar */
+
+
+.sidebar {
+    width: 35%;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.card-video {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.thumb {
+    width: 12rem; 
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+

@@ -1,0 +1,169 @@
+/* Aplicando Responsividade */
+
+@media (max-width: 768px) {
+    header {
+        padding: 0 1rem;
+    }
+
+    .left, .right {
+        gap: 1rem;
+    }
+
+    .menu,
+    .video-icon,
+    .bell-icon,
+    .profile {
+        width: 1.2rem;
+    }
+
+    .logo {
+        width: 6rem;
+    }
+
+    .center {
+        display: none;
+    }
+
+    .profile img {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .main-content {
+        width: 100%;
+        padding-bottom: 1.5rem;
+    }
+
+    .main-content h2 {
+        font-size: 1.1rem;
+    }
+
+    .channel-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .actions {
+        width: 100%;
+    }
+
+    .container-description {
+        width: 100%;
+    }
+
+    .container-description h2,
+    .infos h3 {
+        font-size: 0.9rem;
+    }
+
+    .container-description p,
+    .infos p {
+        font-size: 0.9rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-video {
+        flex-direction: row;
+        gap: 0.8rem;
+    }
+
+    .thumb {
+        width: 10rem;
+    }
+
+    .infos {
+        flex: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 4rem;
+        padding: 0 0.8rem;
+    }
+
+    .left {
+        gap: 0.8rem;
+    }
+
+    .menu,
+    .video-icon,
+    .bell-icon,
+    .profile {
+        width: 1.3rem;
+    }
+
+    .logo {
+        width: 5rem;
+    }
+
+    .center {
+        display: none;
+    }
+
+    .right {
+        gap: 0.8rem;
+    }
+
+    .main-content h2 {
+        font-size: 1rem;
+    }
+
+    .channel-info h2 {
+        font-size: 1rem;
+    }
+
+    .channel-info p {
+        font-size: 0.9rem;
+    }
+
+    .subscribe {
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .actions {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+
+    .actions img {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .actions p {
+        font-size: 0.9rem;
+    }
+
+    .container-description h2,
+    .infos h3 {
+        font-size: 0.85rem;
+    }
+
+    .container-description p,
+    .infos p {
+        font-size: 0.85rem;
+    }
+
+    .card-video {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .thumb {
+        width: 100%;
+        max-width: 18rem;
+    }
+}
